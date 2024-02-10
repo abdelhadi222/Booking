@@ -1,0 +1,41 @@
+.button-container {
+  display: flex;
+  background-color: rgb(56, 56, 56);
+  width: 80%;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: aqua 0px 5px 15px,
+        aqua 5px 10px 15px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+}
+
+.button {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 60px;
+  height: 40px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+.active {
+    background-color: aqua;
+    color: black;
+    padding: 5px;
+    width: fit-content;
+}
+.button:hover {
+     background-color: aqua;
+    color: black;
+}
+
+.icon {
+  font-size: 20px;
+}

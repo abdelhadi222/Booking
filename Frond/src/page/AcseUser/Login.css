@@ -1,0 +1,79 @@
+ .fefe{
+    width: 40%;
+    height:fit-content;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    border-radius: 10PX;
+    padding: 20px;
+    /* margin-top: 230px; */
+
+ }
+ .parent {
+        background-color: rgb(228, 248, 248);
+        width: 100%;
+        height: 100vh;
+        padding-top: 150Px;
+ }
+.fefe div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.sa {
+    margin: 0 auto;
+    background-color: rgb(0, 119, 255);
+    width: 100%;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor:pointer;
+    margin-bottom: 10px;
+}
+.fefe div input {
+     border: none;
+    padding: 7px;
+    color: rgb(145, 145, 145);
+    border-radius: 12px;
+    background-color: rgb(228, 248, 248);
+}
+.forma{
+    width: 60%;
+    height: 460px;
+        display: flex;
+    margin: 0 auto;
+ background: white;
+   border-radius: 10px;
+   gap: 30px;
+}
+.forma .backrou {
+    width: 50%;
+    height: 440px;
+    background: url('../img/ross-parmly-rf6ywHVkrlY-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-radius: 4px 10px 10px 4px;
+}
+.forma input{
+    width: 93%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;background-color: rgb(232, 232, 232);
+    padding: 6px;
+    border-radius: 20px;
+}
+.cre {
+    background-color: rgb(0, 204, 255);
+    padding: 5px;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 80Px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}

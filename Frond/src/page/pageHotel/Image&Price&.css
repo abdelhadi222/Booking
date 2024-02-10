@@ -1,0 +1,9 @@
+.section {
+    width: 70%;
+    height: 350px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px;
+}

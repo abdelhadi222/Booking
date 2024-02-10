@@ -1,0 +1,31 @@
+.Addhotal {
+    width: 60%;
+    background-color: white;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    padding: 17px;
+}
+.Addhotal h2 {
+  margin-bottom: 20PX;
+  text-align: center;
+}
+.Addhotal div input {
+    height: 30px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.Addhotal div label {
+    margin-bottom: 5px;
+}
+.AddH{
+    width: 30%;
+    background-color: rgb(0, 166, 255);
+    margin-left: 230px;
+    border: none;padding: 5px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
